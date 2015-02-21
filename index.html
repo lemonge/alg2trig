@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+	<title>
+		Holt Alg2 Text
+	</title>
+	 <link href="bootstrap.css" rel="stylesheet">
+	 <style>
+	.collapsibleList li {
+		list-style-type: none;
+	}
+	 
+	.collapsibleList li > input + * {
+		display: none;
+	}
+ 
+	.collapsibleList li > input:checked + * {
+		display: block;
+	}
+
+	.collapsibleList li > input {
+		display: none;
+	}
+	
+	.collapsibleList label {
+		cursor: pointer;
+	}
+	
+	body {
+		padding: 20px;
+		padding-left: 30px;
+	}
+	 </style>
+</head>
+<body>
+<!-- Remember to do formatting. -->
+	<h2>
+		Holt Algebra 2 Online Textbook
+	</h2>
+	<p>
+		<i>Change the url for more pages (site under construction). Links from Chapter 4 on are all broken (for now).</i>
+	</p>
+	<p>
+	<ul class="collapsibleList">
+		<li>
+			<label for="01">Chapter 1: Foundations for Functions</label>
+			<input type="checkbox" id="01" />
+			<ul>
+				<li>
+					<label for="0101">Section 1.1</label>
+					<input type="checkbox" id="0101" />
+					<ul>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0006.pdf">Examples</a></li>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0010.pdf">Exercises</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<label for="02">Chapter 2: Linear Functions</label>
+			<input type="checkbox" id="02" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="03">Chapter 3: Linear Systems</label>
+			<input type="checkbox" id="03" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="04">Chapter 4: Matrices</label>
+			<input type="checkbox" id="04" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="05">Chapter 5: Quadradic functions</label>
+			<input type="checkbox" id="05" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="06">Chapter 6: Polynomial Functions</label>
+			<input type="checkbox" id="06" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="07">Chapter 7: Exponential and Logarithmic Functions</label>
+			<input type="checkbox" id="07" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="08">Chapter 8: Rational and Radical functions</label>
+			<input type="checkbox" id="08" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="09">Chapter 9: Properties and Attributes of Functions</label>
+			<input type="checkbox" id="09" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="10">Chapter 10: Conic Sections</label>
+			<input type="checkbox" id="10" />
+			<ul>
+				<li>
+					<label for="1005">Section 10.5: Parabolas</label>
+					<input type="checkbox" id="1005" />
+					<ul>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0751.pdf">Examples</a></li>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0755.pdf">Exercises</a></li>
+					</ul><br>
+					<label for="1006">Section 10.6: Identifying Conic Sections</label>
+					<input type="checkbox" id="1006" />
+					<ul>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0760.pdf">Examples</a></li>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0764.pdf">Exercises</a></li>
+					</ul><br>
+					<label for="1007">Section 10.7: Solving Nonlinear Systems</label>
+					<input type="checkbox" id="1007" />
+					<ul>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0768.pdf">Examples</a></li>
+						<li><a href="http://my.hrw.com/math06_07/student/pdf/english/alg2/alg2_07_0772.pdf">Exercises</a></li>
+					</ul><br>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<label for="11">Chapter 11: Probability and Statistics</label>
+			<input type="checkbox" id="11" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="12">Chapter 12: Sequences and Series</label>
+			<input type="checkbox" id="12" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="13">Chapter 13: Trigonometric Functions</label>
+			<input type="checkbox" id="13" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+		<li>
+			<label for="14">Chapter 14: Trigonometric Graphs and Identities</label>
+			<input type="checkbox" id="14" />
+			<ul>
+				<li>Item</li>
+			</ul>
+		</li>
+	</ul>
+		<i>Things unincluded:</i><br>
+		Extra Practice<br>
+		Problem Solving Handbook<br>
+		Skills Bank<br>
+		Selected Answers<br>
+	</p>
+	<p><a href="/bookpg.html">Page Numbers Only</a></p>
+	<form action="action_page.php" method="POST">
+		Comments and Suggestions?<br>
+		<textarea name="comments" cols="40" rows="4"></textarea>
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
